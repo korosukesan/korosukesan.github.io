@@ -5,6 +5,7 @@
 body {
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN";
+
 }
 
 a {
@@ -15,11 +16,12 @@ a {
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
+  
 }
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(top.png);
+  background-image: url(https://dps68n6fg4q1p.cloudfront.net/wp-content/uploads/2019/05/22184231/146011-How-The-Universe-Works-S5-Black-Holes-The-Secret-Origin2.jpg);
   background-size: cover;
   color: white;
   text-align: center;
@@ -34,7 +36,7 @@ a {
 .top-wrapper p {
   opacity: 0.7;
   font-size: 16px;
-  margin-bottom: 40px;
+  margin-bottom: 45px;
 }
 
 .btn-wrapper {
@@ -45,17 +47,21 @@ a {
   margin-bottom: 20px;
 }
 
-.signup {
+.line {
   background-color: #239b76;
+    margin-right:10px;
+    font-size:15px;
 }
 
 .facebook {
   background-color: #3b5998;
   margin-right: 10px;
+    font-size:15px;
 }
 
 .twitter {
   background-color: #55acee;
+    font-size:15px;
 }
 
 .btn {
@@ -79,19 +85,22 @@ header {
   height: 65px;
   width: 100%;
   background-color: rgba(34,49,52,0.9);
-  position :fixed;
+  position: fixed;
   top: 0;
   z-index: 10;
 }
 
-.logo {
-  width: 124px;
+.header {
+  width: 12px;
   margin-top: 20px;
+
 }
 
 .header-left {
   float: left;
-}
+    
+ }
+
 
 .header-right {
   float: right;
@@ -104,7 +113,7 @@ header {
   color: white;
   display: block;
   float: left;
-  transition: all 0.5s;
+  transition: all 0.5s;  
 }
 
 .header-right a:hover {
@@ -119,6 +128,11 @@ header {
   background-color: #f7f7f7;
   text-align: center;
 }
+    .lesson-wrapper li {
+        
+    border-bottom:solid 1px red;  
+  list-style-type:decimal-leading-zero
+}
 
 .heading {
   padding-top: 80px;
@@ -126,36 +140,12 @@ header {
   color: #5f5d60;
 }
 
-.heading h2 {
-  font-weight: normal;
-}
-
-.lesson {
-  float: left;
-  width: 25%;
-}
-
-.lesson-icon {
-  position: relative;
-}
-
-.lesson-icon p {
-  position: absolute;
-  top: 37%;
-  width: 100%;
-  color: white;
-}
-
-.text-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 13px;
-  color: #b3aeb5;
-}
-
 .heading h3 {
-  font-weight: normal;
+font-size:30px;
+font-family: fantasy ;
+
+   
+    
 }
 
 .message-wrapper {
