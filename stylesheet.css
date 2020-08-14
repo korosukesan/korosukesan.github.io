@@ -10,6 +10,7 @@ body {
 
 a {
   text-decoration: none;
+    color:crimson
 }
 
 .container {
@@ -21,7 +22,7 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(ブラックホール１.jpg);
+  background-image: url(https://dps68n6fg4q1p.cloudfront.net/wp-content/uploads/2019/05/22184231/146011-How-The-Universe-Works-S5-Black-Holes-The-Secret-Origin2.jpg);
   background-size: cover;
   color: white;
   text-align: center;
@@ -46,6 +47,7 @@ a {
 .btn-wrapper p {
   margin-bottom: 20px;
 }
+
 
 .line {
   background-color: #239b76;
